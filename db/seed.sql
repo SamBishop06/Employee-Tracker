@@ -10,12 +10,12 @@ VALUES
 INSERT INTO roles (title, salary, department_id)
 VALUES
 ('Director', 750000.00, 1),
-('Artist Manager', 150000.00, 1),
+('Lead Sound', 150000.00, 1),
 ('Talent Scout', 220000.00, 2),
-('Record Label Executive', 170000.00, 2),
-('Lead Guitarist', 210000.00, 3),
+('Operations', 170000.00, 2),
+('Legal Team lead', 210000.00, 3),
 ('Sound Engineer', 150000.00, 4),
-('Publicist', 95000.00, 4);
+('Lawyer', 95000.00, 4);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
