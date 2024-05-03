@@ -1,18 +1,19 @@
 {
-    "name": "employee-tracker",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-    "cfonts": "^3.1.1",
-    "console.table": "^0.10.0",
-    "inquirer": "^8.2.4",
+  },
+  "dependencies": {
+    
+    "inquirer": "8.2.4",
     "mysql2": "^3.1.2"
-    },
-    "devDependencies": {},
-    "description": ""
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
