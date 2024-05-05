@@ -220,11 +220,11 @@ function addDepartment() {
         })
         .then((answer) => {
             console.log(answer.name);
-            const query = `INSERT INTO departments (department_name) VALUES ("${answer.name}")`;
+            const query = `INSERT INTO department (department_name) VALUES ("${answer.name}")`;
             connection.query(query, (err, res) => {
                 if (err) throw err;
                 console.log(`Added department ${answer.name} to the database!`);
-                // restart the application
+                // restart app
                 start();
                 console.log(answer.name);
             });
@@ -233,7 +233,7 @@ function addDepartment() {
 
 // Add role function
 function addRole() {
-    const query = "SELECT * FROM departments";
+    const query = "SELECT * FROM department";
     connection.query(query, (err, res) => {
         if (err) throw err;
         inquirer
@@ -274,7 +274,7 @@ function addRole() {
                         console.log(
                             `Added role ${answers.title} with salary ${answers.salary} to the ${answers.department} department in the database!`
                         );
-                        // restart the application
+                       // restart app
                         start();
                     }
                 );

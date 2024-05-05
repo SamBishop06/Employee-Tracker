@@ -7,6 +7,7 @@ VALUES
 
 
 
+
 INSERT INTO roles (title, salary, department_id)
 VALUES
 ('Director', 750000.00, 1),
