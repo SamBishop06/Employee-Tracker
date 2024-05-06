@@ -18,7 +18,7 @@ Clone the repository, navigate to the approriate directory in your CLI (the one 
 ## Usage
 Once the repository has been cloned, and the dependencies have been installed: Open the command line, navigate to the folder that contains "server.js", and type "npm start" into your command line. This will start the App in your terminal with the basic information provided in the schema.sql and seeds.sql files. These files are populated to demonstrate functionality.
 
-[Demonstration Video Here]().
+[Demonstration Video Here](https://youtu.be/3WS0RrE2q8k).
 
 
 ## License

@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2');
-// const cfonts = require('cfonts');
+
 
 // MySql connectin 
 const connection = mysql.createConnection({
@@ -18,21 +18,7 @@ connection.connect((err) => {
     start();
 });
 
-// CFONT application 
-// cfonts.say('Employee Tracker', {
-// 	font: 'block',              
-// 	align: 'center',          
-// 	colors: ['red'],        
-// 	background: 'transparent',  
-// 	letterSpacing: 1,           
-// 	lineHeight: 1,             
-// 	space: true,               
-// 	maxLength: '0',             
-// 	gradient: false,           
-// 	independentGradient: false, 
-// 	transitionGradient: false,  
-// 	env: 'node'                
-// });
+
 // SQL Employee App
 
         // Adjust the "pageSize" setting to control the maximum number of visible choices, effectively preventing endless scrolling.
